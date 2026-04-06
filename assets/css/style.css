@@ -26,7 +26,16 @@ h1, h2 ,h3 {
     color: var(--highlight-color);
 }
 
-/* Grid visulisation css for testing */
+/* Navbar */
+#navbar {
+    background-color: var(--primary-color);
+    
+}
+#navbar .logo {
+    width: 30px;
+}
+
+/* Grid visulisation css for testing 
 .container, .row {
     border: 2px solid black;
 }
@@ -34,4 +43,4 @@ h1, h2 ,h3 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgrey;
-}
+} */
