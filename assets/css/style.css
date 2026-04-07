@@ -13,6 +13,9 @@
     --highlight-color-light: #7a9fc2; /*Light Blue*/
 
 }
+
+/* Global styles */
+
 body {
     font-family: var(--primary-font);
 }
@@ -20,12 +23,17 @@ body {
 h1, h2 ,h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
 }
 
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 /* Navbar */
 #navbar {
     background-color: var(--primary-color);
@@ -35,8 +43,17 @@ h1, h2 ,h3 {
     width: 30px;
 }
 
-/* Grid visulisation css for testing 
-.container, .row {
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font);
+
+}
+
+
+/* Grid visulisation css for testing */
+
+/* .container, .row {
     border: 2px solid black;
 }
 
