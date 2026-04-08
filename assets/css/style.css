@@ -18,6 +18,7 @@
 
 body {
     font-family: var(--primary-font);
+    padding-top:40px;
 }
 
 h1, h2 ,h3 {
