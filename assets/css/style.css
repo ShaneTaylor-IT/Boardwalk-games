@@ -95,9 +95,26 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* events */
+
+#events-table {
+    font-size: 0.8rem;
+}
+
+#events .card {
+    border: none;
+}
+
+.student {
+    background: var(--highlight-color);
+    color: white;
+    font-size: 0.9rem;
+    padding-top: 12px;
+}
+
 /* Game library */
 #new-games .card, #fav-games .card {
-    Border: none;
+    border: none;
 }
 
 /* footer / contact */
